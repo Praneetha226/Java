@@ -1,0 +1,20 @@
+package checkedunchecked;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class CheckedAndUncheckedException {
+
+	public static void main(String[] args) {
+		FileInputStream fis = null;
+		
+			fis = new FileInputStream("C:/Users/harip/Documents/Database.docx");
+		
+		
+			System.out.println("The specified file is not " +
+					"present at the given path");
+		}
+
+	}
+
+}

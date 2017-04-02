@@ -1,0 +1,71 @@
+package constructorOverLoading;
+
+
+
+public class ConstOL1 {
+	private int EmployeeId;
+	private String EmployeeName;
+	private int EmployeeAge;
+	
+	ConstOL1(){
+		EmployeeId = 426;
+		EmployeeName = "Swetha";
+        EmployeeAge = 30;
+	}
+	
+	ConstOL1(int num, String name, int age){
+		EmployeeId = num;
+		EmployeeName = name;
+		EmployeeId = age;
+	}
+/*	public int getEmployeeId(){
+		return EmployeeId;
+	}
+	public String getEmployeeName(){
+		return EmployeeName;
+	}
+	public int getEmployeeAge(){
+		return EmployeeAge;
+	}
+
+	
+	public void setEmployeeId(int EmployeeId){
+		this.EmployeeId = EmployeeId;
+	}
+	
+	public String getEmployeeName(String EmployeeName){
+		return EmployeeName;
+	}
+	public void setEmployeeName(String EmployeeName){
+		this.EmployeeName = EmployeeName;
+	}
+	public int getEmployeeAge(int num){
+		return EmployeeAge;
+	}
+	public void setEmployeeAge(int EmployeeAge){
+		this.EmployeeAge = EmployeeAge;
+	}*/
+	public static void main(String[] args) {
+		
+/*ConstOL1 obj1 = new ConstOL1(1,"swetha",6);
+System.out.println("EmployeeId is:"+obj1.getEmployeeId());
+System.out.println("EmployeeName is:"+obj1.getEmployeeName());
+System.out.println("EmployeeAge is:" +obj1.getEmployeeAge());
+
+ConstOL1 obj = new ConstOL1();
+System.out.println("EmployeeId is:"+obj.getEmployeeId());
+System.out.println("EmployeeName is:"+obj.getEmployeeName());
+System.out.println("EmployeeAge is:" +obj.EmployeeAge);
+	}*/
+		ConstOL1 obj = new ConstOL1(1,"",7);
+		System.out.print(obj);
+		ConstOL1 obj1 = new ConstOL1();
+		System.out.print(obj1);
+		
+		
+		
+	}
+
+	}
+
+

@@ -1,0 +1,22 @@
+package runtime;
+
+import java.util.Scanner;
+
+public class JsonNew {
+
+	public static void main(String[] args) {
+		Scanner S = new Scanner(System.in);
+System.out.println("Enter Student name");
+String Name = S.nextLine();
+System.out.println("Enter student Subject");
+String Subject = S.nextLine();
+System.out.println("Enter Student Grade");
+String Grade = S.nextLine();
+System.out.println("Enter student CourseName");
+String CourseName = S.nextLine();
+System.out.println("Enter student Age");
+int Age = S.nextInt();
+System.out.println("Enter student Id");
+int Id = S.nextInt();
+	}
+}

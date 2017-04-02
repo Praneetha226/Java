@@ -1,0 +1,10 @@
+package constructorOverLoading;
+
+public class ConstOL1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

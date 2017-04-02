@@ -1,0 +1,20 @@
+package learning1;
+
+public class TryCatchCatch2 {
+
+	public static void main(String[] args) {
+		int a[] = new int[4];
+		try
+		{
+		a[1]= 21/0;
+		a[5]= 12/6;
+		}
+catch(ArithmeticException e){
+	System.out.println("Warning: Arithmetic Exception");
+}
+		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("Warning: Array size is larger than the array size we have");
+		}
+	}
+
+}

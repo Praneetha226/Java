@@ -1,0 +1,10 @@
+package constructorOverLoading;
+
+public class Sa {
+	int a,b,c;
+	public Sa() {
+		
+System.out.println("addition"+ a+""+b);
+
+}
+}

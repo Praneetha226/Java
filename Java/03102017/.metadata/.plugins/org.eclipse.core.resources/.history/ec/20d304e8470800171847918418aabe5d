@@ -1,0 +1,17 @@
+package overLoading;
+
+public class MethodOverLoading1 {
+
+	public static void main(String[] args) {
+		MethodOverLoading1 obj = new MethodOverLoading1();
+obj.disp(46);
+
+	}
+	public void disp(int c){
+		System.out.println("This should display c" + c);
+	}
+	public void disp(char d, int e){
+		System.out.println("This should concatenate char 'd' and int 'e'" );
+	}
+
+}
