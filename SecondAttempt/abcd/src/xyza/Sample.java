@@ -16,6 +16,8 @@ public class Sample {
 	final int money = 100 ; // constant declaration
 	System.out.println("Addition of a, b is " +(a+b));
 	System.out.println(money);
+	
+	System.out.println("ALKSHJSAM,N");
 	System.out.println(c);
 	//Conditional blocks
 	/*if (a >b){
